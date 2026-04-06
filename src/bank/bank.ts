@@ -10,10 +10,6 @@ export class Bank {
     return amount
   }
 
-  hasEnoughBalance(): boolean {
-    return this.balance >= 25
-  }
-
   getBalance(): number {
     return this.balance
   }
